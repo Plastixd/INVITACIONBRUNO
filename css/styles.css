@@ -36,8 +36,10 @@ h3{
 
 h3 a {
     font-size: 1.5rem;
-    color: #af3200;
+    color: #31f8e7;
+    text-shadow: 2px 2px 10px #000;
     text-decoration: none;
+
 }
 
 h3 a:hover {
@@ -65,7 +67,7 @@ img {
     left: 20%; /* Ajusta la posición horizontal */
     transform: translate(-50%, -50%); /* Centra el GIF exactamente */
     width: 80%; /* Tamaño del GIF (podés ajustarlo según prefieras) */
-    z-index: 1; /* Coloca el GIF detrás del contenido */
-    opacity: 0.7; /* Ajusta la transparencia del GIF */
-    pointer-events: none; /* Hace que el GIF no interfiera con clics en los elementos frontales */
+    z-index: -1; /* Coloca el GIF detrás del contenido */
+    opacity: 1; 
+    pointer-events: none;
 }
